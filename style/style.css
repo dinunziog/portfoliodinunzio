@@ -1,0 +1,80 @@
+/* Aplica reglas css a toda la pagina */
+body{
+    background-color: beige;
+    color: rgb(97, 7, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    color: rgb(236, 105, 175);
+    text-align: center;
+
+}
+
+h2{
+    color: palevioletred;
+    border-bottom: 2px solid;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a{
+    color: darkturquoise;
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+
+.titulo-peliculas{
+    color: rgb(66, 5, 25);
+    border-bottom: solid 2px rgb(227, 135, 195);
+}
+
+
+.titulo-helados{
+    color: rgb(187, 161, 108);
+    border-bottom: solid 2px rgb(111, 154, 136);
+}
+
+.titulo-musica{
+    color: rgb(43, 15, 43);
+    border-bottom: solid 2px rgb(122, 68, 126);
+}
+
+/* esto es un id para cambiar el format del titulo principal */
+#titulo-principal{
+    background-color: palevioletred;
+    color: brown;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgb(254, 216, 223);
+}
+
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid brown;
+}
+
+.fotos-footer{
+    width: 40px;
+    height: auto;
+}
